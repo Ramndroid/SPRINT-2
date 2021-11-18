@@ -1,23 +1,113 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="Imagenes/favicon-32x32.png" type="image/x-icon">
+    <link rel="icon" href="img/favicon-32x32.png" type="image/x-icon">
     <title>Sprint 2 - Exercici 1</title>
     <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.min.css">
 
+
+    <style>
+        body {
+            background-color: white;
+        }
+
+        .cuerpo {
+            max-width: 1110px;
+        }
+
+        .caja {
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+        }
+    </style>
+
 </head>
+
 <body>
 
-    <h5 class="text-primary">Hola</h5>
-    
+    <header class="container mt-4">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo-bookmark.svg" alt="" width="148" height="25">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-4">
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase me-4" href="#">Features</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase me-4" href="#">Pricing</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase me-4" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <!-- <form class="d-flex"> -->
+                    <button class="btn btn-transparent bg-secondary text-white px-4 py-2 font-monospace"
+                        type="submit">LOGIN</button>
+                    <!-- </form> -->
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <br>
+    <br>
+
+    <main class="container mt-5">
+        <div class="row">
+            <div class="col-12 col-lg-6 order-2 order-sm-2 order-lg-1">
+                <div class="container d-flex flex-column">
+                    <div class="d-flex flex-column">
+                        <div>
+                            <h1 class="display-5 fw-bold text-capitalize text-center text-sm-center text-lg-start">a
+                                simple bookmark manager</h1>
+                            <p class="fs-4 lead text-muted text-center text-sm-center text-lg-start m-4 m-sm-4 m-lg-0">A
+                                clean and simple interface to organize your favourite websites. Open a new browser tab
+                                and see your sites load instantly. Try it for free.</p>
+
+                        </div>
+                        <div class="d-flex gap-3 mt-4 align-self-center align-self-sm-center align-self-lg-start">
+                            <button class="btn bg-primary text-white"> Get it on Chrome</button>
+                            <button class="btn bg-light text-dark shadow"> Get it on Firefox</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-6 order-1 order-sm-1 order-lg-2">
+
+                <div class="d-flex justify-content-lg-start">
+                    <!-- <div class="caja bg-primary rounded-circle rounded-end" style="scale: 3;"></div> -->
+                    <img class="img-fluid" src="img/illustration-hero.svg" alt="">
+                </div>
 
 
-    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+            </div>
+
+        </div>
+
+    </main>
+
+
+
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
+
 </html>
