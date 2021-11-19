@@ -1,3 +1,12 @@
+.navbar {
+  height: 100px !important;
+  /*i assume your navbar size 100px*/
+}
+
+body {
+  background-color: white !important;
+}
+
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -11954,6 +11963,54 @@ fieldset:disabled .btn {
   }
   .d-print-none {
     display: none !important;
+  }
+}
+
+.forma-derecha {
+  z-index: -1;
+  width: 100%;
+  height: 70%;
+  border-bottom-left-radius: 20% 30%;
+  top: 30%;
+  left: 30%;
+}
+
+.ff-rubik-ultralight {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+  font-size: 0.97rem;
+}
+
+.ff-rubik-light {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  font-size: .75rem;
+}
+
+.ff-rubik {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  font-size: .8rem;
+}
+
+.ff-rubik-bold {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  word-spacing: -0.1rem;
+  line-height: 3rem;
+}
+
+.fs-rubik-lg {
+  font-size: 2.5rem;
+}
+
+@media (max-width: 576px) {
+  .ff-rubik-bold {
+    line-height: 2.5rem;
+  }
+  .fs-rubik-lg {
+    font-size: 1.8rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
