@@ -1,6 +1,10 @@
 $primary: #5265E1;
 $secondary: #FA5959;
 
+$btn-border-radius:     0.3125rem;
+$btn-border-radius-sm:  0.3125rem;
+$btn-border-radius-lg:  0.3125rem;
+
 // .navbar {
 //     height: 100px !important; /*i assume your navbar size 100px*/
 // }
@@ -12,6 +16,21 @@ $secondary: #FA5959;
 .max-window-size {
     max-width: 1330px !important;
 }
+
+/////////////////////////////// BOTONS //////////////////////////
+
+// Botó "Login" del menú
+.btn-login {
+    min-width: 111px;
+    min-height: 40px;
+}
+
+// Botons del reclamn
+.btn-getit {
+    min-width: 166px;
+    min-height: 48px;
+}
+
 
 /////////////////////////////// PADDINGS ////////////////////////
 
