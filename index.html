@@ -23,11 +23,12 @@
 
 <body>
 
-    <header class="container pb-5">
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white px-3">
+    <!-- CAPÇALERA / EXERCICI 1-->
+    <header class="container">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white px-3 py-5">
             <div class="container">
                 <a class="navbar-brand" href="#">
-                    <img src="img/logo-bookmark.svg" alt="" width="148" height="25">
+                    <img src="img/logo-bookmark.svg" alt="Logotipo de Bookmark Manager" width="148" height="25">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -37,50 +38,56 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ff-rubik-light">
                         <li class="nav-item">
-                            <a class="nav-link text-uppercase me-3" href="#">Features</a>
+                            <a class="nav-link text-uppercase me-4" href="#">features</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link text-uppercase me-3" href="#">Pricing</a>
+                            <a class="nav-link text-uppercase me-4" href="#">pricing</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link text-uppercase me-3" href="#">Contact</a>
+                            <a class="nav-link text-uppercase me-3" href="#">contact</a>
                         </li>
                     </ul>
-                    <button class="btn btn-secondary text-white px-4 py-2 ff-rubik-light shadow text-uppercase">login</button>
+                    <button
+                        class="btn btn-secondary btn-login text-white ff-rubik-light shadow text-uppercase ms-3">login</button>
                 </div>
             </div>
         </nav>
     </header>
 
-    <main class="container-fluid pt-5 my-5">
-        <div class="row">
-            <div class="col-12 col-lg-6 order-2 order-sm-2 order-lg-1 px-0 px-sm-0 px-md-3 px-lg-5">
-                <div
-                    class="d-flex flex-column justify-content-end align-items-center align-items-sm-center align-items-lg-start gap-0 my-5">
-                    <h1
-                        class="text-capitalize text-center text-sm-center text-lg-start text-dark ff-rubik-bold fs-rubik-lg mx-3 mx-sm-3 mx-md-3 mx-lg-5">
-                        a simple bookmark<br>manager</h1>
-                    <p
-                        class="text-center text-sm-center text-lg-start ms-3 ms-sm-3 ms-lg-5 mt-3 text-muted ff-rubik-ultralight">
-                        A
-                        clean and simple interface to organize your favourite websites. Open a new browser tab
-                        and see your sites load instantly. Try it for free.</p>
-                    <div
-                        class="d-flex gap-3 mt-4 mx-3 mx-sm-3 mx-md-3 mx-lg-5 align-self-center align-self-sm-center align-self-lg-start">
-                        <button class="btn btn-primary text-white shadow ff-rubik px-4 py-2">Get it on
-                            Chrome</button>
-                        <button class="btn btn-light text-dark shadow ff-rubik px-4 py-2">Get it on Firefox</button>
+    <!-- MAIN -->
+    <main>
+
+        <!-- RECLAM / EXERCICI 1 -->
+        <section class="container-fluid max-window-size padding-top-main">
+            <div class="row">
+                <div class="col-12 col-lg-6 order-2 order-sm-2 order-lg-1 px-0 px-sm-0 px-md-3 px-lg-5">
+                    <div class="d-flex flex-column gap-0 my-5">
+                        <h1
+                            class="text-capitalize text-center text-sm-center text-lg-start text-dark ff-rubik-bold fs-rubik-lg mx-3 mx-sm-3 mx-md-3 mx-lg-5">
+                            a simple bookmark<br>manager</h1>
+
+                        <p class="text-center text-sm-center text-lg-start mx-5 mt-3 text-muted ff-rubik-ultralight">
+                            A clean and simple interface to organize your favourite websites. Open a new browser tab and
+                            see your sites load instantly. Try it for free.</p>
+
+                        <div
+                            class="d-flex gap-3 mt-4 mx-3 mx-sm-3 mx-md-3 mx-lg-5 align-self-center align-self-sm-center align-self-lg-start">
+                            <button class="btn btn-primary btn-getit text-white shadow ff-rubik">Get it on
+                                Chrome</button>
+                            <button class="btn btn-light btn-getit text-dark shadow ff-rubik">Get it on Firefox</button>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-12 col-lg-6 order-1 order-sm-1 order-lg-2 position-relative overflow-hidden">
-                <img src="img/illustration-hero.svg" alt="" class="img-fluid">
-                <div class="forma-derecha bg-primary position-absolute"></div>
+                <div class="col-12 col-lg-6 order-1 order-sm-1 order-lg-2 position-relative overflow-hidden">
+                    <img src="img/illustration-hero.svg" alt="" class="img-fluid">
+                    <div class="forma-derecha bg-primary position-absolute"></div>
+                </div>
             </div>
-        </div>
+        </section>
+
     </main>
 
 

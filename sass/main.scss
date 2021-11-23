@@ -1,49 +1,75 @@
 $primary: #5265E1;
 $secondary: #FA5959;
 
-.navbar {
-    height: 100px !important; /*i assume your navbar size 100px*/
+// .navbar {
+//     height: 100px !important; /*i assume your navbar size 100px*/
+// }
+
+// body {
+//     background-color: white !important;
+// }
+
+/////////////////////////////// PADDINGS ////////////////////////
+
+.padding-top-main {
+    padding-top: 194px;
 }
 
-body {
-    background-color: white !important;
+@media (max-width: 576px) { 
+
+    .padding-top-main {
+        padding-top: 170px;
+    }
 }
+
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 
-// Forma realce
+/////////////////////////////// FORMES //////////////////////////
 
 .forma-derecha {
     z-index: -1;
     width: 100%;
     height: 70%;
-    border-bottom-left-radius: 20% 30%;
+    border-bottom-left-radius: 25% 35%;
     top: 30%;
     left: 30%;
 }
 
-// Font Family Padauk [Google Fonts}
+/////////////////////////////// TIPOGRAFIA //////////////////////
 
+
+// Utilitzada en els textos encapsulats dins de 'p'
 .ff-rubik-ultralight {
     font-family: 'Rubik', sans-serif;
     font-weight: 300;
-    font-size: 0.97rem;
+    font-size: 1.15rem;
 }
 
+// Utilitzada en les tabs
+.ff-rubik-tabs {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+// Utilitzada al menú de navegació
 .ff-rubik-light {
     font-family: 'Rubik', sans-serif;
     font-weight: 500;
     letter-spacing: 0.1rem;
-    font-size: .75rem;
-}
-
-.ff-rubik {
-    font-family: 'Rubik', sans-serif;
-    font-weight: 500;
     font-size: .8rem;
 }
 
+// Utilitzada en botons (exclos el botó del menú)
+.ff-rubik {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: .9rem;
+}
+
+// Utilitzada en títols (h1, h2)
 .ff-rubik-bold {
     font-family: 'Rubik', sans-serif;
     font-weight: 500;    
@@ -51,8 +77,9 @@ body {
     line-height : 3rem;
 }
 
+// Utilitzada per variar el tamany de h1
 .fs-rubik-lg {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
 }
 
 @media (max-width: 576px) { 
