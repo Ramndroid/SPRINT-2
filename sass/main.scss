@@ -6,26 +6,20 @@ $btn-border-radius:     0.3125rem;
 $btn-border-radius-sm:  0.3125rem;
 $btn-border-radius-lg:  0.3125rem;
 
-$nav-link-color: gray;
-$nav-link-hover-color: $secondary; 
-$nav-tabs-border-color: transparent;
-$nav-tabs-border-width: 0px;
-$nav-tabs-border-radius:  none;
-$nav-tabs-link-active-color:        black;
+$nav-link-color:                  gray;
+$nav-link-hover-color:              $secondary; 
+$nav-tabs-border-color:             transparent;
+$nav-tabs-border-width:             0px;
+$nav-tabs-border-radius:            none;
+$nav-tabs-link-active-color:      black;
 $nav-tabs-link-active-bg:           transparent;
 $nav-tabs-link-active-border-color: transparent;
 
-body {
-    background-color: blanchedalmond !important;
-}
 
 .max-window-size {
     max-width: 1330px !important;
 }
 
-// .navbar-toggler:focus {
-//     outline: none !important;
-// }
 
 /////////////////////////////// PADDINGS ////////////////////////
 
@@ -83,11 +77,8 @@ body {
 
 #myTab li a { 
     padding: 20px 0px;
-    // border-top: solid 1px lightgrey;
     width: 243px;
-    // width: 100%;
     text-align: center;
-    // border-bottom: solid 1px #e0e0ec;
 }
 
 #myTab li a.active {
