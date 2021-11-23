@@ -1,53 +1,206 @@
-$primary: #5265E1;
-$secondary: #FA5959;
+/////////////////////////////// VARIABLES DE BOOTSTRAP //////////
+$primary:             #5265E1;
+$secondary:           #FA5959;
 
-.navbar {
-    height: 100px !important; /*i assume your navbar size 100px*/
-}
+$btn-border-radius:     0.3125rem;
+$btn-border-radius-sm:  0.3125rem;
+$btn-border-radius-lg:  0.3125rem;
+
+$nav-link-color: gray;
+$nav-link-hover-color: $secondary; 
+$nav-tabs-border-color: transparent;
+$nav-tabs-border-width: 0px;
+$nav-tabs-border-radius:  none;
+$nav-tabs-link-active-color:        black;
+$nav-tabs-link-active-bg:           transparent;
+$nav-tabs-link-active-border-color: transparent;
 
 body {
-    background-color: white !important;
+    background-color: blanchedalmond !important;
 }
 
 .max-window-size {
-    max-width: 1500px !important;
+    max-width: 1330px !important;
+}
+
+// .navbar-toggler:focus {
+//     outline: none !important;
+// }
+
+/////////////////////////////// PADDINGS ////////////////////////
+
+.padding-top-main {
+    padding-top: 194px;
+}
+
+@media (max-width: 576px) { 
+
+    .padding-top-main {
+        padding-top: 170px;
+    }
+}
+
+/////////////////////////////// BOTONS //////////////////////////
+
+// Botó "Login" del menú
+.btn-login {
+    min-width: 111px;
+    min-height: 40px;
+}
+
+// Botons del reclamn
+.btn-getit {
+    min-width: 166px;
+    min-height: 48px;
+}
+
+// Botons "more info"
+.btn-moreinfo {
+    min-width: 114px;
+    min-height: 48px;
+}
+
+
+
+/////////////////////////////// NAV-TABS ////////////////////////
+
+.nav-tabs {
+    border-bottom: solid 1px lightgrey !important;
+}
+
+// .nav-item {
+//     border-top: solid 1px lightgrey;
+//     border-bottom: solid 1px lightgrey !important;
+// }
+
+// .my-tab {
+//     border-top: solid 4px orange;
+// }
+
+// .my-tab .tab-pane {
+//     border-top: solid 4px orange;
+// }
+
+#myTab li a { 
+    padding: 20px 0px;
+    // border-top: solid 1px lightgrey;
+    width: 243px;
+    // width: 100%;
+    text-align: center;
+    // border-bottom: solid 1px #e0e0ec;
+}
+
+#myTab li a.active {
+    border-bottom: solid 4px $secondary;
 }
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 
-// Forma realce
+/////////////////////////////// FORMES //////////////////////////
 
 .forma-derecha {
     z-index: -1;
     width: 100%;
     height: 70%;
-    border-bottom-left-radius: 20% 30%;
+    border-bottom-left-radius: 25% 35%;
     top: 30%;
     left: 30%;
 }
 
-// Font Family Padauk [Google Fonts}
+.forma-izquierda {
+    z-index: -1;
+    width: 100%;
+    height: 352px;
+    border-bottom-right-radius: 25% 35%;
+    border-top-right-radius: 25% 35%;
+    top: 30%;
+    left: -50%;
+}
 
+@media (min-width: 576px) { 
+    .forma-izquierda {
+        z-index: -1;
+        width: 100%;
+        height: 300px;
+        border-bottom-right-radius: 25% 35%;
+        border-top-right-radius: 25% 35%;
+        top: 30%;
+        left: -50%;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+    .forma-izquierda {
+        z-index: -1;
+        width: 100%;
+        height: 352px;
+        border-bottom-right-radius: 25% 35%;
+        border-top-right-radius: 25% 35%;
+        top: 30%;
+        left: -50%;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+    .forma-izquierda {
+        z-index: -1;
+        width: 100%;
+        height: 350px;
+        border-bottom-right-radius: 25% 35%;
+        border-top-right-radius: 25% 35%;
+        top: 30%;
+        left: -50%;
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1242) { 
+    .forma-izquierda {
+        z-index: -1;
+        width: 100%;
+        height: 310px;
+        border-bottom-right-radius: 25% 35%;
+        border-top-right-radius: 25% 35%;
+        top: 30%;
+        left: 80%;
+    }
+}
+
+/////////////////////////////// TIPOGRAFIA //////////////////////
+
+// Utilitzada en els textos encapsulats dins de 'p'
 .ff-rubik-ultralight {
     font-family: 'Rubik', sans-serif;
     font-weight: 300;
-    font-size: 0.97rem;
+    font-size: 1.15rem;
 }
 
+// Utilitzada en les tabs
+.ff-rubik-tabs {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+// Utilitzada al menú de navegació
 .ff-rubik-light {
     font-family: 'Rubik', sans-serif;
     font-weight: 500;
     letter-spacing: 0.1rem;
-    font-size: .75rem;
-}
-
-.ff-rubik {
-    font-family: 'Rubik', sans-serif;
-    font-weight: 500;
     font-size: .8rem;
 }
 
+// Utilitzada en botons (exclos el botó del menú)
+.ff-rubik {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: .9rem;
+}
+
+// Utilitzada en títols (h1, h2)
 .ff-rubik-bold {
     font-family: 'Rubik', sans-serif;
     font-weight: 500;    
@@ -55,8 +208,9 @@ body {
     line-height : 3rem;
 }
 
+// Utilitzada per variar el tamany de h1
 .fs-rubik-lg {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
 }
 
 @media (max-width: 576px) { 
@@ -69,6 +223,4 @@ body {
         font-size: 1.8rem;
     }
 }
-
-
 
