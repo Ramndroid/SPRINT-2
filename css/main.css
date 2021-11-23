@@ -2,6 +2,10 @@
   max-width: 1330px !important;
 }
 
+.card {
+  border-radius: 0.3125rem !important;
+}
+
 .padding-top-main {
   padding-top: 194px;
 }
@@ -12115,5 +12119,12 @@ fieldset:disabled .btn {
   .fs-rubik-lg {
     font-size: 1.8rem;
   }
+}
+
+hr {
+  width: 100%;
+  height: 0;
+  border: medium none;
+  border-top: 1px dashed white !important;
 }
 /*# sourceMappingURL=main.css.map */
