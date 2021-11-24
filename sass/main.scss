@@ -256,25 +256,15 @@ $accordion-button-active-icon:  url("data:image/svg+xml,<svg xmlns='http://www.w
 }
 
 // Tamanys de lletra
-.fs-rubik-1 {
-    font-size: .8rem;
-}
+.fs-rubik-1 { font-size: .8rem; }
 
-.fs-rubik-2 {
-    font-size: .9rem;
-}
+.fs-rubik-2 { font-size: .9rem; }
 
-.fs-rubik-3 {
-    font-size: 1rem;
-}
+.fs-rubik-3 { font-size: 1rem; }
 
-.fs-rubik-4 {
-    font-size: 1.125rem;
-}
+.fs-rubik-4 { font-size: 1.125rem; }
 
-.fs-rubik-5 {
-    font-size: 2.8rem;
-}
+.fs-rubik-5 { font-size: 2.8rem; }
 
 
 @media (max-width: 576px) { 
@@ -288,5 +278,3 @@ $accordion-button-active-icon:  url("data:image/svg+xml,<svg xmlns='http://www.w
     }
 }
 
-
-// @import "../node_modules/bootstrap/scss/bootstrap";
