@@ -45,6 +45,20 @@
   border-bottom: solid 4px #FA5959;
 }
 
+.conjunto-cards {
+  min-height: 440px;
+  gap: 37px !important;
+}
+
+.my-cards {
+  width: 17.5rem;
+  height: 22rem;
+}
+
+.my-cards img:first-child {
+  width: 100px;
+}
+
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors

@@ -89,6 +89,24 @@ $nav-tabs-link-active-border-color: transparent;
     border-bottom: solid 4px $secondary;
 }
 
+/////////////////////////////// CARDS ///////////////////////////
+
+.conjunto-cards {
+    min-height: 440px;
+    gap: 37px !important;
+}
+
+.my-cards {
+    width: 17.5rem;
+    height: 22rem;
+}
+
+.my-cards img:first-child {
+    width: 100px;
+}
+
+
+
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 
