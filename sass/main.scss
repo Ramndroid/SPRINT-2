@@ -1,10 +1,15 @@
-/////////////////////////////// VARIABLES DE BOOTSTRAP //////////
-$primary:             #5265E1;
-$secondary:           #FA5959;
+/////////////////////////////// VARIABLES PROPIES ///////////////
+$my-color-green: #dddddd;
 
-$btn-border-radius:     0.3125rem;
-$btn-border-radius-sm:  0.3125rem;
-$btn-border-radius-lg:  0.3125rem;
+
+
+/////////////////////////////// VARIABLES DE BOOTSTRAP //////////
+$primary:                         #5265E1;
+$secondary:                       #FA5959;
+
+$btn-border-radius:                 0.3125rem;
+$btn-border-radius-sm:              0.3125rem;
+$btn-border-radius-lg:              0.3125rem;
 
 $nav-link-color:                  gray;
 $nav-link-hover-color:              $secondary; 
@@ -15,13 +20,17 @@ $nav-tabs-link-active-color:      black;
 $nav-tabs-link-active-bg:           transparent;
 $nav-tabs-link-active-border-color: transparent;
 
+$accordion-border-width:            1px;
+$accordion-button-active-bg:      white;
+$accordion-button-active-color:   black;
+$accordion-button-focus-box-shadow: none;
+
+$accordion-button-icon: url(../img/icon-arrow.svg);
+$accordion-button-active-icon:  url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 18 12'><path fill='none' stroke='#{$secondary}' stroke-width='3' d='M1 1l8 8 8-8'/></svg>");
+
 
 .max-window-size {
     max-width: 1330px !important;
-}
-
-.card {
-    border-radius: 0.3125rem !important;
 }
 
 
@@ -59,7 +68,6 @@ $nav-tabs-link-active-border-color: transparent;
 }
 
 
-
 /////////////////////////////// NAV-TABS ////////////////////////
 
 .nav-tabs {
@@ -89,7 +97,12 @@ $nav-tabs-link-active-border-color: transparent;
     border-bottom: solid 4px $secondary;
 }
 
+
 /////////////////////////////// CARDS ///////////////////////////
+
+.card {
+    border-radius: 0.3125rem !important;
+}
 
 .conjunto-cards {
     min-height: 440px;
@@ -105,6 +118,17 @@ $nav-tabs-link-active-border-color: transparent;
     width: 100px;
 }
 
+
+/////////////////////////////// ACCORDION ///////////////////////
+
+.accordion {
+    border-top: solid 1px $my-color-green;
+    border-bottom: solid 1px $my-color-green;
+}
+
+.accordion-button:hover{
+    color: $secondary;
+}
 
 
 @import "../node_modules/bootstrap/scss/bootstrap";
@@ -194,36 +218,26 @@ $nav-tabs-link-active-border-color: transparent;
     }
 }
 
+
 /////////////////////////////// TIPOGRAFIA //////////////////////
 
-
-// Utilitzada en els textos encapsulats dins de 'p'
-.ff-rubik-ultralight {
-    font-family: 'Rubik', sans-serif;
-    font-weight: 300;
-    font-size: 1.15rem;
-}
-
-// Utilitzada en les tabs
-.ff-rubik-tabs {
-    font-family: 'Rubik', sans-serif;
-    font-weight: 300;
-    font-size: 1rem;
-}
-
-// Utilitzada al menú de navegació
+// Utilitzada en els textos encapsulats dins de 'p' i a les 'tabs'
 .ff-rubik-light {
     font-family: 'Rubik', sans-serif;
-    font-weight: 500;
-    letter-spacing: 0.1rem;
-    font-size: .8rem;
+    font-weight: 300;
 }
 
-// Utilitzada en botons (exclos el botó del menú)
-.ff-rubik {
+// Utilitzada en els textos dels accordions
+.ff-rubik-light-s {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    line-height: 2rem;
+}
+
+// Utilitzada en botons (excepte el botó del menú)
+.ff-rubik-regular {
     font-family: 'Rubik', sans-serif;
     font-weight: 500;
-    font-size: .9rem;
 }
 
 // Utilitzada en títols (h1, h2)
@@ -231,13 +245,37 @@ $nav-tabs-link-active-border-color: transparent;
     font-family: 'Rubik', sans-serif;
     font-weight: 500;    
     word-spacing: -0.1rem;
-    line-height : 3rem;
+    line-height: 3rem;
 }
 
-// Utilitzada per variar el tamany de h1
-.fs-rubik-lg {
+// Utilitzada al menú de navegació
+.ff-rubik-navbar {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+}
+
+// Tamanys de lletra
+.fs-rubik-1 {
+    font-size: .8rem;
+}
+
+.fs-rubik-2 {
+    font-size: .9rem;
+}
+
+.fs-rubik-3 {
+    font-size: 1rem;
+}
+
+.fs-rubik-4 {
+    font-size: 1.125rem;
+}
+
+.fs-rubik-5 {
     font-size: 2.8rem;
 }
+
 
 @media (max-width: 576px) { 
 
@@ -245,16 +283,10 @@ $nav-tabs-link-active-border-color: transparent;
         line-height : 2.5rem;
     }
 
-    .fs-rubik-lg {
+    .fs-rubik-5 {
         font-size: 1.8rem;
     }
 }
 
 
-hr {
-    width: 100%;
-    height: 0;
-    border: medium none;
-    border-top: 1px dashed white!important
-  }
-
+// @import "../node_modules/bootstrap/scss/bootstrap";
