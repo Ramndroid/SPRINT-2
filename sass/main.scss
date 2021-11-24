@@ -131,11 +131,23 @@ $nav-tabs-link-active-border-color: transparent;
     left: -50%;
 }
 
-@media (min-width: 576px) { 
+@media (max-width: 575px) { 
     .forma-izquierda {
         z-index: -1;
         width: 100%;
         height: 300px;
+        border-bottom-right-radius: 25% 35%;
+        border-top-right-radius: 25% 35%;
+        top: 30%;
+        left: -50%;
+    }
+}
+
+@media (min-width: 576px) { 
+    .forma-izquierda {
+        z-index: -1;
+        width: 100%;
+        height: 100%;
         border-bottom-right-radius: 25% 35%;
         border-top-right-radius: 25% 35%;
         top: 30%;
@@ -148,7 +160,7 @@ $nav-tabs-link-active-border-color: transparent;
     .forma-izquierda {
         z-index: -1;
         width: 100%;
-        height: 352px;
+        height: 100%;
         border-bottom-right-radius: 25% 35%;
         border-top-right-radius: 25% 35%;
         top: 30%;
