@@ -20,6 +20,13 @@
     <link rel="stylesheet" href="css/main.css">
 
     <!-- Exercici 5 -->
+    <style>
+        #testeo {
+            font-family: 'Rubik', sans-serif;
+            font-weight: 500;
+            font-size: 2rem;
+        }
+    </style>
 
 </head>
 
@@ -27,8 +34,8 @@
 
     <!-- CAPÇALERA / EXERCICI 1-->
     <header class="container">
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white px-3 py-5">
-            <div class="container">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white mx-4 py-5">
+            <div class="container px-0 px-lg-5">
                 <a class="navbar-brand" href="#">
                     <img src="img/logo-bookmark.svg" alt="Logotipo de Bookmark Manager" width="148" height="25">
                 </a>
@@ -64,11 +71,12 @@
 
         <!-- RECLAM / EXERCICI 1 -->
         <section class="container-fluid max-window-size padding-top-main">
+           
             <div class="row">
                 <div class="col-12 col-lg-6 order-2 order-sm-2 order-lg-1 px-0 px-sm-0 px-md-3 px-lg-5">
                     <div class="d-flex flex-column gap-0 my-5">
                         <h1
-                            class="text-capitalize text-center text-sm-center text-lg-start text-dark ff-rubik-bold fs-rubik-5 mx-3 mx-sm-3 mx-md-3 mx-lg-5">
+                            class="text-capitalize text-center text-sm-center text-lg-start text-dark ff-rubik-bold fs-rubik-6 mx-3 mx-sm-3 mx-md-3 mx-lg-5">
                             a simple bookmark<br>manager</h1>
 
                         <p
@@ -325,12 +333,13 @@
 
                 <!-- Accordion -->
                 <div class="row justify-content-center">
-                    <div class="col-9 col-sm-9 col-md-8 col-lg-5">
+                    <div class="col-11 col-sm-9 col-md-8 col-lg-5">
                         <div class="accordion accordion-flush text-start" id="accordionFlushExample">
                             <div class="accordion-item">
                                 <h2 class="accordion-header ff-rubik-regular" id="flush-headingOne">
-                                    <button class="accordion-button collapsed ps-0 py-4 fs-rubik-4" type="button"
-                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                    <button
+                                        class="accordion-button collapsed ps-0 py-4 fs-rubik-4 pe-0 pe-sm-0 pe-md-0 pe-lg-4"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
                                         aria-expanded="false" aria-controls="flush-collapseOne">
                                         What is Bookmark?
                                     </button>
@@ -347,8 +356,9 @@
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header ff-rubik-regular" id="flush-headingTwo">
-                                    <button class="accordion-button collapsed ps-0 py-4 fs-rubik-4" type="button"
-                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                                    <button
+                                        class="accordion-button collapsed ps-0 py-4 fs-rubik-4 pe-0 pe-sm-0 pe-md-0 pe-lg-4"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
                                         aria-expanded="false" aria-controls="flush-collapseTwo">
                                         How can I request a new browser?
                                     </button>
@@ -364,8 +374,9 @@
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header ff-rubik-regular" id="flush-headingThree">
-                                    <button class="accordion-button collapsed ps-0 py-4 fs-rubik-4" type="button"
-                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                    <button
+                                        class="accordion-button collapsed ps-0 py-4 fs-rubik-4 pe-0 pe-sm-0 pe-md-0 pe-lg-4"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
                                         aria-expanded="false" aria-controls="flush-collapseThree">
                                         Is there a mobile app?
                                     </button>
@@ -381,8 +392,9 @@
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header ff-rubik-regular" id="flush-headingFour">
-                                    <button class="accordion-button collapsed ps-0 py-4 fs-rubik-4" type="button"
-                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseFour"
+                                    <button
+                                        class="accordion-button collapsed ps-0 py-4 fs-rubik-4 pe-0 pe-sm-0 pe-md-0 pe-lg-4"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour"
                                         aria-expanded="false" aria-controls="flush-collapseFour">
                                         What about other Chromium browsers?
                                     </button>
@@ -403,10 +415,10 @@
                 </div>
 
                 <!-- Button More Info -->
-                <div class="row justify-content-center mt-5">
+                <div class="row justify-content-center mt-5 mb-5">
                     <div class="col-5">
                         <button
-                            class="btn btn-primary btn-moreinfo d-none d-sm-none d-md-inline text-capitalize text-white shadow ff-rubik-regular fs-rubik-2">more
+                            class="btn btn-primary btn-moreinfo text-capitalize text-white shadow ff-rubik-regular fs-rubik-2">more
                             info</button>
                     </div>
                 </div>
@@ -415,40 +427,41 @@
 
     </main>
 
-    <!-- FOOTER -->
+    <!-- FOOTER / EXERCICI 5 -->
     <footer>
-        <div class="container-fluid bg-primary" style="height: 360px;">
-            <div class="row d-flex flex-column justify-content-center align-items-center">
+        <div class="container-fluid bg-primary">
+            <div class="row">
                 <div class="col-12">
-                    <p class="ff-rubik-light text-white text-center pt-5">35.000+ ALREADY JOINED</p>
+                    <p class="ff-rubik-regular ff-rubik-footer-small text-white text-center">35 , 000 + ALREADY
+                        JOINED</p>
                 </div>
-                <div class="col-5">
-                    <h6 class="ff-rubik-light fs-rubik-5 text-white text-center">Stay up-to-date with what we're doing
+                <div class="col-12 col-sm-8 col-md-6 col-lg-6 col-xl-5 col-xxl-4 mt-3 mx-auto">
+                    <h6 class="ff-rubik-regular fs-rubik-5 text-white text-center">Stay up-to-date with what we're doing
                     </h6>
                 </div>
-                <div class="col-4 mt-3">
-                    <form class="was-validated">
-                        <div class="row">
-                            <div class="col-8">
-                                <!-- <label for="exampleInputEmail1" class="form-label">Email address</label> -->
-                                <input type="email" class="form-control" id="exampleInputEmail1"
-                                    aria-describedby="emailHelp" style="height: 48px;">
-                                <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
-                                </div> -->
-                            </div>
-                            <div class="col-4 align-self-center">
-                                <button type="submit"
-                                    class="btn btn-secondary btn-moreinfo text-capitalize text-white ff-rubik-regular fs-rubik-2">Contact
-                                    Us</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
+
             </div>
+            <form class="row was-validated">
+                <div
+                    class="container d-flex flex-column flex-sm-column flex-md-column flex-lg-row justify-content-center mt-4 pt-2 px-4">
+                    <div class="">
+                        <!-- <label for="exampleInputEmail1" class="form-label">Email address</label> -->
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
+                                </div> -->
+                    </div>
+                    <div class="ms-0 ms-sm-0 ms-md-0 ms-lg-3 mt-3 mt-sm-3 mt-md-3 mt-lg-0">
+                        <button type="submit" id="btn-contactus"
+                            class="btn btn-secondary text-capitalize text-white ff-rubik-regular fs-rubik-2">Contact
+                            Us</button>
+                    </div>
+                </div>
+            </form>
         </div>
 
-        <nav class="navbar navbar-dark px-3 py-3">
-            <div class="container d-flex flex-column flex-lg-row">
+        <nav class="navbar px-3 py-4">
+            <div
+                class="container d-flex flex-column flex-sm-column flex-md-row flex-lg-row align-items-center align-items-md-baseline px-0 px-lg-5">
                 <a class="navbar-brand" href="#">
                     <svg width="148px" height="25px" viewBox="0 0 148 25" enable-background="new 0 0 148 25"
                         xml:space="preserve">
@@ -464,25 +477,30 @@
                     </svg>
                 </a>
 
-                <div class="align-self-end me-auto ms-5">
-                    <ul class="navbar-nav mb-2 mb-lg-0 ff-rubik-navbar fs-rubik-1 d-flex flex-row">
+                <div class="me-0 me-sm-0 me-md-auto me-lg-auto">
+                    <ul
+                        class="navbar-nav mb-3 mb-sm-3 mb-md-0 mb-lg-0 ff-rubik-navbar fs-rubik-1 d-flex flex-column flex-sm-column flex-md-row flex-lg-row text-center text-sm-center text-md-start text-lg-start">
                         <li class="nav-item">
-                            <a class="nav-link text-uppercase me-4" href="#">features</a>
+                            <a class="nav-link text-uppercase ms-0 ms-md-4 ms-lg-5 me-0 me-md-4 me-lg-5"
+                                href="#">features</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link text-uppercase me-4" href="#">pricing</a>
+                            <a class="nav-link text-uppercase me-0 me-md-4 me-lg-5" href="#">pricing</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link text-uppercase me-3" href="#">contact</a>
+                            <a class="nav-link text-uppercase me-0 me-md-4 me-lg-5" href="#">contact</a>
                         </li>
                     </ul>
 
                 </div>
-                <div>
-                    <img class="me-4" src="img/icon-facebook.svg" alt="">
-                    <img src="img/icon-twitter.svg" alt="">
+
+                <div class="">
+                    <a href="https://www.facebook.com" target="_blank"><img class="me-4 pe-2"
+                            src="img/icon-facebook.svg" alt="Logotipo Facebook"></a>
+                    <a href="https://www.twitter.com" target="_blank"><img src="img/icon-twitter.svg"
+                            alt="Logotipo Twitter"></a>
                 </div>
                 <!-- <button
                     class="btn btn-secondary btn-login text-white ff-rubik-navbar fs-rubik-1 shadow text-uppercase ms-3">login</button> -->
