@@ -34,8 +34,48 @@
 }
 
 .btn-getit {
-  min-width: 166px;
+  width: auto;
   min-height: 3rem;
+}
+
+.btn-getit:hover {
+  color: #5265E1 !important;
+  background-color: white !important;
+  border: 2px solid #5265E1 !important;
+}
+
+.btn-getit-firefox {
+  width: auto;
+  min-height: 3rem;
+}
+
+.btn-getit-firefox:hover {
+  color: black !important;
+  background-color: white !important;
+  border: 2px solid black !important;
+}
+
+.btn-login:hover {
+  color: #FA5959 !important;
+  background-color: white !important;
+  border: 2px solid #FA5959 !important;
+}
+
+.btn-cards {
+  width: 80%;
+  min-height: 3rem;
+}
+
+.btn-cards:hover {
+  color: #5265E1 !important;
+  background-color: white !important;
+  border: 2px solid #5265E1 !important;
+}
+
+@media (min-width: 576px) {
+  .btn-getit {
+    width: 166px;
+  }
 }
 
 .btn-moreinfo {
@@ -44,7 +84,14 @@
 }
 
 .nav-tabs {
-  border-bottom: solid 1px lightgrey !important;
+  border-top: 1px solid lightgrey !important;
+  border-bottom: 1px solid lightgrey !important;
+}
+
+@media (min-width: 768px) {
+  .nav-tabs {
+    border-top: 0px solid transparent !important;
+  }
 }
 
 #myTab li a {
@@ -54,7 +101,7 @@
 }
 
 #myTab li a.active {
-  border-bottom: solid 4px #FA5959;
+  border-bottom: 4px solid #FA5959;
 }
 
 .card {
@@ -76,12 +123,12 @@
 }
 
 .accordion {
-  border-bottom: solid 1px #dddddd;
+  border-bottom: 1px solid #dddddd;
 }
 
 @media (min-width: 992px) {
   .accordion {
-    border-top: solid 1px #dddddd;
+    border-top: 1px solid #dddddd;
   }
 }
 
@@ -201,6 +248,14 @@ footer .container-fluid, footer .container-sm, footer .container-md, footer .con
   #btn-contactus {
     width: 114px;
   }
+}
+
+.redes {
+  fill: white;
+}
+
+.redes:hover {
+  fill: #FA5959;
 }
 
 /*!
@@ -3172,7 +3227,7 @@ textarea.form-control-lg {
 .valid-feedback {
   display: none;
   width: 100%;
-  margin-top: 0.25rem;
+  margin-top: 150px;
   font-size: 0.875em;
   color: #198754;
 }
@@ -3201,7 +3256,7 @@ textarea.form-control-lg {
 .was-validated .form-control:valid, .form-control.is-valid {
   border-color: #198754;
   padding-right: calc(1.5em + 0.75rem);
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23198754' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='transparent' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e");
   background-repeat: no-repeat;
   background-position: right calc(0.375em + 0.1875rem) center;
   background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
@@ -3224,7 +3279,7 @@ textarea.form-control-lg {
 
 .was-validated .form-select:valid:not([multiple]):not([size]), .was-validated .form-select:valid:not([multiple])[size="1"], .form-select.is-valid:not([multiple]):not([size]), .form-select.is-valid:not([multiple])[size="1"] {
   padding-right: 4.125rem;
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e"), url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23198754' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e"), url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='transparent' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e");
   background-position: right 0.75rem center, center right 2.25rem;
   background-size: 16px 12px, calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
 }
@@ -3271,9 +3326,9 @@ textarea.form-control-lg {
 .invalid-feedback {
   display: none;
   width: 100%;
-  margin-top: 0.25rem;
+  margin-top: 150px;
   font-size: 0.875em;
-  color: #dc3545;
+  color: #FA5959;
 }
 
 .invalid-tooltip {
@@ -3285,8 +3340,8 @@ textarea.form-control-lg {
   padding: 0.25rem 0.5rem;
   margin-top: .1rem;
   font-size: 0.875rem;
-  color: #fff;
-  background-color: rgba(220, 53, 69, 0.9);
+  color: #000;
+  background-color: rgba(250, 89, 89, 0.9);
   border-radius: 0.25rem;
 }
 
@@ -3298,18 +3353,18 @@ textarea.form-control-lg {
 }
 
 .was-validated .form-control:invalid, .form-control.is-invalid {
-  border-color: #dc3545;
+  border-color: #FA5959;
   padding-right: calc(1.5em + 0.75rem);
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='none' stroke='%23dc3545'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e");
+  background-image: url(../img/icon-error.svg);
   background-repeat: no-repeat;
   background-position: right calc(0.375em + 0.1875rem) center;
   background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
 }
 
 .was-validated .form-control:invalid:focus, .form-control.is-invalid:focus {
-  border-color: #dc3545;
-  -webkit-box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.25);
-          box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.25);
+  border-color: #FA5959;
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(250, 89, 89, 0.25);
+          box-shadow: 0 0 0 0.25rem rgba(250, 89, 89, 0.25);
 }
 
 .was-validated textarea.form-control:invalid, textarea.form-control.is-invalid {
@@ -3318,37 +3373,37 @@ textarea.form-control-lg {
 }
 
 .was-validated .form-select:invalid, .form-select.is-invalid {
-  border-color: #dc3545;
+  border-color: #FA5959;
 }
 
 .was-validated .form-select:invalid:not([multiple]):not([size]), .was-validated .form-select:invalid:not([multiple])[size="1"], .form-select.is-invalid:not([multiple]):not([size]), .form-select.is-invalid:not([multiple])[size="1"] {
   padding-right: 4.125rem;
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e"), url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='none' stroke='%23dc3545'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e"), url(../img/icon-error.svg);
   background-position: right 0.75rem center, center right 2.25rem;
   background-size: 16px 12px, calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
 }
 
 .was-validated .form-select:invalid:focus, .form-select.is-invalid:focus {
-  border-color: #dc3545;
-  -webkit-box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.25);
-          box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.25);
+  border-color: #FA5959;
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(250, 89, 89, 0.25);
+          box-shadow: 0 0 0 0.25rem rgba(250, 89, 89, 0.25);
 }
 
 .was-validated .form-check-input:invalid, .form-check-input.is-invalid {
-  border-color: #dc3545;
+  border-color: #FA5959;
 }
 
 .was-validated .form-check-input:invalid:checked, .form-check-input.is-invalid:checked {
-  background-color: #dc3545;
+  background-color: #FA5959;
 }
 
 .was-validated .form-check-input:invalid:focus, .form-check-input.is-invalid:focus {
-  -webkit-box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.25);
-          box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.25);
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(250, 89, 89, 0.25);
+          box-shadow: 0 0 0 0.25rem rgba(250, 89, 89, 0.25);
 }
 
 .was-validated .form-check-input:invalid ~ .form-check-label, .form-check-input.is-invalid ~ .form-check-label {
-  color: #dc3545;
+  color: #FA5959;
 }
 
 .form-check-inline .form-check-input ~ .invalid-feedback {
@@ -4558,7 +4613,7 @@ fieldset:disabled .btn {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: gray;
+  color: #797a7f;
   text-decoration: none;
   -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
@@ -5232,7 +5287,7 @@ fieldset:disabled .btn {
 }
 
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
-  color: rgba(0, 0, 0, 0.7);
+  color: #FA5959;
 }
 
 .navbar-light .navbar-nav .nav-link.disabled {
@@ -12167,6 +12222,60 @@ fieldset:disabled .btn {
   }
 }
 
+.form-control::-webkit-input-placeholder {
+  font-family: 'Rubik', sans-serif;
+  font-size: 0.88rem;
+  color: #dadadc;
+}
+
+.form-control:-ms-input-placeholder {
+  font-family: 'Rubik', sans-serif;
+  font-size: 0.88rem;
+  color: #dadadc;
+}
+
+.form-control::-ms-input-placeholder {
+  font-family: 'Rubik', sans-serif;
+  font-size: 0.88rem;
+  color: #dadadc;
+}
+
+.form-control::placeholder {
+  font-family: 'Rubik', sans-serif;
+  font-size: 0.88rem;
+  color: #dadadc;
+}
+
+.form-control:-ms-input-placeholder {
+  color: #dadadc;
+}
+
+.form-control::-ms-input-placeholder {
+  color: #dadadc;
+}
+
+.my-footer-nav {
+  color: white;
+}
+
+.my-footer-nav:hover {
+  color: #FA5959;
+}
+
+.my-feedback {
+  background-color: #FA5959;
+  color: white;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: .7rem;
+  padding-left: 1rem;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border: 4px solid #FA5959;
+  margin-top: 0px !important;
+}
+
 .forma-derecha {
   z-index: -1;
   width: 100%;
@@ -12179,30 +12288,18 @@ fieldset:disabled .btn {
 .forma-izquierda {
   z-index: -1;
   width: 100%;
-  height: 352px;
+  height: 180px;
   border-bottom-right-radius: 25% 35%;
   border-top-right-radius: 25% 35%;
   top: 30%;
-  left: -50%;
-}
-
-@media (max-width: 575px) {
-  .forma-izquierda {
-    z-index: -1;
-    width: 100%;
-    height: 300px;
-    border-bottom-right-radius: 25% 35%;
-    border-top-right-radius: 25% 35%;
-    top: 30%;
-    left: -50%;
-  }
+  left: -20%;
 }
 
 @media (min-width: 576px) {
   .forma-izquierda {
     z-index: -1;
     width: 100%;
-    height: 100%;
+    height: 250px;
     border-bottom-right-radius: 25% 35%;
     border-top-right-radius: 25% 35%;
     top: 30%;
@@ -12226,7 +12323,7 @@ fieldset:disabled .btn {
   .forma-izquierda {
     z-index: -1;
     width: 100%;
-    height: 350px;
+    height: 300px;
     border-bottom-right-radius: 25% 35%;
     border-top-right-radius: 25% 35%;
     top: 30%;
@@ -12271,13 +12368,14 @@ fieldset:disabled .btn {
 
 .ff-rubik-navbar {
   font-family: 'Rubik', sans-serif;
-  font-weight: 500;
+  font-weight: 300;
   letter-spacing: 0.1rem;
+  font-size: .9rem;
 }
 
 .ff-rubik-footer-small {
   font-size: .75rem;
-  letter-spacing: 0.33rem;
+  letter-spacing: 0.22rem;
   margin-top: 70px;
 }
 
@@ -12298,7 +12396,7 @@ fieldset:disabled .btn {
 }
 
 .fs-rubik-5 {
-  font-size: 2rem;
+  font-size: 1.2rem;
 }
 
 .fs-rubik-6 {
@@ -12310,13 +12408,37 @@ fieldset:disabled .btn {
     line-height: 2.5rem;
   }
   .fs-rubik-4 {
-    font-size: .9rem;
+    font-size: 0.95rem;
   }
   .fs-rubik-5 {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
   }
   .fs-rubik-6 {
     font-size: 1.8rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .fs-rubik-5 {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 576px) {
+  .ff-rubik-navbar {
+    font-size: .9rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .ff-rubik-navbar {
+    font-size: .9rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .ff-rubik-navbar {
+    font-size: .8rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
