@@ -245,12 +245,62 @@ footer .container-fluid, footer .container-sm, footer .container-md, footer .con
   }
 }
 
+.link-redes {
+  text-decoration: none;
+}
+
 .redes {
   fill: white;
 }
 
 .redes:hover {
   fill: #FA5959;
+}
+
+.form-control::-webkit-input-placeholder {
+  font-family: 'Rubik', sans-serif;
+  font-size: 0.88rem;
+  color: #dadadc !important;
+}
+
+.form-control:-ms-input-placeholder {
+  font-family: 'Rubik', sans-serif;
+  font-size: 0.88rem;
+  color: #dadadc !important;
+}
+
+.form-control::-ms-input-placeholder {
+  font-family: 'Rubik', sans-serif;
+  font-size: 0.88rem;
+  color: #dadadc !important;
+}
+
+.form-control::placeholder {
+  font-family: 'Rubik', sans-serif;
+  font-size: 0.88rem;
+  color: #dadadc !important;
+}
+
+.form-control:-ms-input-placeholder {
+  color: #dadadc !important;
+}
+
+.form-control::-ms-input-placeholder {
+  color: #dadadc !important;
+}
+
+.my-feedback {
+  background-color: #FA5959;
+  color: white !important;
+  font-family: 'Rubik', sans-serif !important;
+  font-weight: 300 !important;
+  font-style: italic !important;
+  font-size: .7rem !important;
+  padding-left: 1rem !important;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border: 4px solid #FA5959;
+  margin-top: 0px !important;
 }
 
 /*!
@@ -12215,52 +12265,6 @@ fieldset:disabled .btn {
   .d-print-none {
     display: none !important;
   }
-}
-
-.form-control::-webkit-input-placeholder {
-  font-family: 'Rubik', sans-serif;
-  font-size: 0.88rem;
-  color: #dadadc;
-}
-
-.form-control:-ms-input-placeholder {
-  font-family: 'Rubik', sans-serif;
-  font-size: 0.88rem;
-  color: #dadadc;
-}
-
-.form-control::-ms-input-placeholder {
-  font-family: 'Rubik', sans-serif;
-  font-size: 0.88rem;
-  color: #dadadc;
-}
-
-.form-control::placeholder {
-  font-family: 'Rubik', sans-serif;
-  font-size: 0.88rem;
-  color: #dadadc;
-}
-
-.form-control:-ms-input-placeholder {
-  color: #dadadc;
-}
-
-.form-control::-ms-input-placeholder {
-  color: #dadadc;
-}
-
-.my-feedback {
-  background-color: #FA5959;
-  color: white;
-  font-family: 'Rubik', sans-serif;
-  font-weight: 300;
-  font-style: italic;
-  font-size: .7rem;
-  padding-left: 1rem;
-  border-bottom-left-radius: 4px;
-  border-bottom-right-radius: 4px;
-  border: 4px solid #FA5959;
-  margin-top: 0px !important;
 }
 
 .forma-derecha {
