@@ -158,6 +158,27 @@
   gap: 37px !important;
 }
 
+.conjunto-cards div:nth-child(2) {
+  margin-top: 50px !important;
+}
+
+.conjunto-cards div:nth-child(3) {
+  margin-top: 100px !important;
+}
+
+@media (max-width: 992px) {
+  .conjunto-cards {
+    min-height: 440px;
+    gap: 37px !important;
+  }
+  .conjunto-cards div:nth-child(2) {
+    margin-top: 0px !important;
+  }
+  .conjunto-cards div:nth-child(3) {
+    margin-top: 0px !important;
+  }
+}
+
 .my-cards {
   width: 17.5rem;
   height: 22rem;
