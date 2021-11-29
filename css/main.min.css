@@ -1,3 +1,13 @@
+.padding-top-main {
+  padding-top: 194px;
+}
+
+@media (max-width: 576px) {
+  .padding-top-main {
+    padding-top: 170px;
+  }
+}
+
 .max-window-size {
   max-width: 1330px !important;
 }
@@ -25,16 +35,6 @@
 .listamenu a:last-child {
   border-bottom: 1px solid #4e526d !important;
   margin-bottom: 1rem;
-}
-
-.padding-top-main {
-  padding-top: 194px;
-}
-
-@media (max-width: 576px) {
-  .padding-top-main {
-    padding-top: 170px;
-  }
 }
 
 .btn-login {
@@ -111,6 +111,36 @@
   min-height: 40px;
 }
 
+#btn-contactus {
+  min-width: 100%;
+  height: 3rem;
+  margin-bottom: 60px;
+}
+
+@media (min-width: 576px) {
+  #btn-contactus {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  #btn-contactus {
+    width: 114px;
+  }
+}
+
+.link-redes {
+  text-decoration: none;
+}
+
+.redes {
+  fill: white;
+}
+
+.redes:hover {
+  fill: #FA5959;
+}
+
 .nav-tabs {
   border-top: 1px solid lightgrey !important;
   border-bottom: 1px solid lightgrey !important;
@@ -156,6 +186,27 @@
 .conjunto-cards {
   min-height: 440px;
   gap: 37px !important;
+}
+
+.conjunto-cards div:nth-child(2) {
+  margin-top: 50px !important;
+}
+
+.conjunto-cards div:nth-child(3) {
+  margin-top: 100px !important;
+}
+
+@media (max-width: 992px) {
+  .conjunto-cards {
+    min-height: 440px;
+    gap: 37px !important;
+  }
+  .conjunto-cards div:nth-child(2) {
+    margin-top: 0px !important;
+  }
+  .conjunto-cards div:nth-child(3) {
+    margin-top: 0px !important;
+  }
 }
 
 .my-cards {
@@ -212,36 +263,6 @@ footer nav {
   #exampleInputEmail1 {
     width: 300px;
   }
-}
-
-#btn-contactus {
-  min-width: 100%;
-  height: 3rem;
-  margin-bottom: 60px;
-}
-
-@media (min-width: 576px) {
-  #btn-contactus {
-    width: 100%;
-  }
-}
-
-@media (min-width: 992px) {
-  #btn-contactus {
-    width: 114px;
-  }
-}
-
-.link-redes {
-  text-decoration: none;
-}
-
-.redes {
-  fill: white;
-}
-
-.redes:hover {
-  fill: #FA5959;
 }
 
 .form-control::-webkit-input-placeholder {
@@ -671,6 +692,12 @@ button:not(:disabled),
         -ms-flex: 0 0 auto;
             flex: 0 0 auto;
     width: auto;
+  }
+  .col-lg-3 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+    width: 25%;
   }
   .col-lg-5 {
     -webkit-box-flex: 0;
