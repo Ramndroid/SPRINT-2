@@ -1,3 +1,13 @@
+.padding-top-main {
+  padding-top: 194px;
+}
+
+@media (max-width: 576px) {
+  .padding-top-main {
+    padding-top: 170px;
+  }
+}
+
 .max-window-size {
   max-width: 1330px !important;
 }
@@ -25,16 +35,6 @@
 .listamenu a:last-child {
   border-bottom: 1px solid #4e526d !important;
   margin-bottom: 1rem;
-}
-
-.padding-top-main {
-  padding-top: 194px;
-}
-
-@media (max-width: 576px) {
-  .padding-top-main {
-    padding-top: 170px;
-  }
 }
 
 .btn-login {
@@ -109,6 +109,36 @@
 .btn-contact {
   min-width: 111px;
   min-height: 40px;
+}
+
+#btn-contactus {
+  min-width: 100%;
+  height: 3rem;
+  margin-bottom: 60px;
+}
+
+@media (min-width: 576px) {
+  #btn-contactus {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  #btn-contactus {
+    width: 114px;
+  }
+}
+
+.link-redes {
+  text-decoration: none;
+}
+
+.redes {
+  fill: white;
+}
+
+.redes:hover {
+  fill: #FA5959;
 }
 
 .nav-tabs {
@@ -233,36 +263,6 @@ footer nav {
   #exampleInputEmail1 {
     width: 300px;
   }
-}
-
-#btn-contactus {
-  min-width: 100%;
-  height: 3rem;
-  margin-bottom: 60px;
-}
-
-@media (min-width: 576px) {
-  #btn-contactus {
-    width: 100%;
-  }
-}
-
-@media (min-width: 992px) {
-  #btn-contactus {
-    width: 114px;
-  }
-}
-
-.link-redes {
-  text-decoration: none;
-}
-
-.redes {
-  fill: white;
-}
-
-.redes:hover {
-  fill: #FA5959;
 }
 
 .form-control::-webkit-input-placeholder {
